@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://admin:admin@chatdb.db0lh.mongodb.net/ChatDB?retryWrites=true&w=majority",
+    "jwtSecret": "44c2d58f7342d2dd714fd303f3bd7bdb",
+    "tokenExpires": 3600
+}

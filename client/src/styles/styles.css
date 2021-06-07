@@ -1,0 +1,59 @@
+/* .meta {	
+
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--dark-color-b);
+    opacity: 0.7;
+    margin-bottom: 7px;
+}
+
+.text {	
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    flex: 1;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+	--dark-color-a: #667aff;
+	--dark-color-b: #7386ff;
+	--light-color: #e6e9ff;
+	--success-color: #5cb85c;
+	--error-color: #d9534f;
+}
+
+.chat-messages {
+	padding: 30px;
+    align-self: stretch;
+    height: 100%;
+	overflow-y: scroll;
+	background: azure;
+}
+
+.chat-messages .message {
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+.chat-messages .message .meta {
+	font-size: 15px;
+	font-weight: bold;
+	color: var(--dark-color-b);
+	opacity: 0.7;
+	margin-bottom: 7px;
+}
+
+.chat-messages .message .meta span {
+	color: #777;
+}
+
+.chat-messages .message .text {
+    font-size: 16px;
+    padding: 5px;
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
